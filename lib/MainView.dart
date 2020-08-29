@@ -120,7 +120,6 @@ class _MyMainViewState extends State<MyMainView> {
                     children: [
                       Expanded(
                           flex: 3,
-                          ///// Rounded Corners Image
                           child: Container(
                             decoration: BoxDecoration(
                                 color: Colors.white,
@@ -316,7 +315,6 @@ class _MyMainViewState extends State<MyMainView> {
             ),
             Expanded(
                 flex: 2,
-                //// bu textlere expanded verip güzelce böl
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
